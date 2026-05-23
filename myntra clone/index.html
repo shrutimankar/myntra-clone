@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myntra clone</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+ </head>
+ <body>
+    <header>
+      <div class="logo_container">
+         <a href="#"><img class="myntra_Home" src="data:image/png;base64,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" alt="myntra Home"></a>
+      </div>
+      <div class="nav_bar">
+         <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home & Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Studio <sup>New</sup></a>
+      </div>
+      <div class="search_bar">
+<span class="material-symbols-outlined search_icon">search</span>
+<input class="search_input" placeholder="Search for product, brands and more">
+      </div>
+      <div class="action_bar">
+         <div class="action_container">
+            <span class="material-symbols-outlined action_icon ">person</span>
+            
+            <span class="action_name">Profile</span>
+         </div>
+      </div>
+      <div class="action_bar">
+         <div class="action_container">
+         
+            <span class="action_name">Wishlist</span>
+         </div>
+      </div>
+<div class="action_bar">
+         <div class="action_container">
+            
+            <span class="action_name">Bag</span>
+         </div>
+      </div>
+
+
+    </header>
+    <main>
+        <div class="banner_container">
+         <img class="banner_image" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/3/e384cb32-690c-4ccf-a6cb-61df36960bb21651599573972-Workwear_Desk.jpg">
+        </div>
+        <div class="category_heading">MEDAL WORTHY BRANDS TO BAG</div>
+         <div class="category_items">
+            <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/1dce9c3e-77fa-48f1-85a3-d3c136c1d73e1598892377652-USPA.jpg"></a>
+                        <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/8d5afb84-a464-40af-9971-2e9f0827e9b71598892377591-UCB.jpg"></a>
+                     <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/a7d3676a-9694-4a84-835e-0408fdad884b1598892377407-Nike.jpg"></a>
+ <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/d977e7ac-67dd-4fa6-b922-fe0057385dfa1598892377205-Crocs.jpg"></a>
+                     <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/3fa337a0-c792-4038-8d12-50d463c189a11598892377363-Levis.jpg"></a>
+         <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/0206da63-a7cc-4f83-8527-90d7dc74706b1598892377489-Skechers.jpg"></a>
+         <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/af31285e-f6a3-426e-bbea-0aedef9da17c1598892377537-Tommy-Hilfiger.jpg"></a>
+         <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/cec595c6-c7ec-4259-af8b-997a33a09ce71598892377444-Puma.jpg"></a>
+         
+         </div>
+
+          <div class="category_heading">SHOP BY CATEGORY</div>
+         <div class="category_items">
+            <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/89f1bd9d-3a28-456d-888a-beff717a06f81594222908155-Shirts.jpg"></a>
+                        <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/9ff1f34e-9242-47fd-9566-e7d7a5c240511594222908483-T-shirt.jpg"></a>
+                     <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/f0f9b81a-b9d5-4b8b-94d5-ea878fa9b18e1594222834121-Infant-Essential.jpg"></a>
+      
+                                 <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/720cf6ef-3be4-4825-8211-0125c942e3821594222907960-Jeans.jpg"></a>
+                     <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/2bac5e2d-337b-42c0-88c7-3d4e2dc464141594222908262-Shorts-_-Trousers.jpg"></a>
+         <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/ae14f627-9fd9-41ce-80a4-f107c316c7eb1594222907625-Casual-shoes.jpg"></a>
+         
+         </div>
+         <div class="category_heading">TRENDING IN INDIAN WEAR</div>
+         <div class="category_items">
+            <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/0d1e0a28-3088-4719-a692-4cdaa7a33cc71597840342726-Content-ethnicwear-occasion-casuallook.jpg"></a>
+                        <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/83d9ca97-4aa3-46ce-bd28-b135d3b94a021595935030673-Content-ethnicwear-essentials-everydaykurtas.jpg"></a>
+                     <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/9d248917-d1b0-4910-8de0-4ed7c2b4af8e1595935030939-Content-ethnicwear-trends-printedkurtaset.jpg"></a>
+      
+                                 <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/9e4fb95e-6268-49c5-9ed1-e6b1bd4b5efd1595935030880-Content-ethnicwear-trend-fashionmeetcomfort.jpg"></a>
+                     <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/a9f68785-e282-425a-b270-c978c387b0f31597840342635-Content-ethnicwear-color-whites.jpg"></a>
+         </div>
+          <div class="category_heading">TRENDING IN SPORTS WEAR</div>
+         <div class="category_items">
+            <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/4aa58fe6-8c61-4e37-9fa8-436c31aecb211597840566511-Content-sportswear-essentials-activewear.png"></a>
+                        <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/65bafbc5-f83b-4158-8168-f7553043814c1597841103082-Content-sportswear-brand-Asics.png"></a>
+                     <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/7472ab66-adf2-4d1d-9379-4770a73c1efe1597841103172-Content-sportswear-brand-proline.png"></a>
+      <a href="#"><img class="sale_item" src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/8/21/eedc6c0c-c28b-4ccb-952f-a302c96c59ba1598030134978-Content-mostselling-Sportswear-Nikerevolution.jpeg"></a>
+               
+         </div>
+    </main>
+    <footer>
+      <div class="footer_container">
+         <div class="footer_colum">
+            <h3>ONLINE SHOPPING</h3>
+             <a href="#">Men</a><br>
+          <a href="#">Women</a><br>
+          <a href="#">Kids</a><br>
+          <a href="#">Home & Living</a><br>
+          <a href="#">Beauty</a><br>
+          <a href="#">Gift Card</a><br>
+          <a href="#">myntra Insider</a><br>
+          
+         </div>
+          <div class="footer_container">
+         <div class="footer_colum">
+            <h3>SUPPORT</h3>
+             <a href="#">Help Center</a><br>
+          <a href="#">Safety Center</a><br>
+          <a href="#">Community Guidelines</a><br>
+         </div>
+         </div>
+         <div class="footer_container">
+         <div class="footer_colum">
+          <h3>LEGAL</h3>
+          <a href="#">Cookies Policy</a><br>
+          <a href="#">Privacy Policy</a><br>
+          <a href="#">Teams of Service</a><br>
+          <a href="#">Law Enforcement</a><br>
+      
+         
+          
+         </div>
+
+         
+      </div>
+      <hr>
+      <div class="copyright"></div>
+© 2025 www.myntra.com. All rights reserved.
+      </div>
+      <div class="Install_App">
+         <img  src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png">
+         <img  src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png">
+        
+        </div>
+    </footer>
+    <div class="SUMMARY"><H4>MYNTRA APP</H4>
+<H6>Myntra, India’s no. 1 online fashion destination justifies its fashion relevance by bringing something new and chic to the table on the daily. Fashion trends seem to change at lightning speed, yet the Myntra shopping app has managed to keep up without any hiccups. In addition, Myntra has vowed to serve customers to the best of its ability by introducing its first-ever loyalty program, The Myntra Insider. Gain access to priority delivery, early sales, lucrative deals and other special perks on all your shopping with the Myntra app. Download the Myntra app on your Android or IOS device today and experience shopping like never before!</H6>
+<H4>HISTORY OF MYNTRA</H4>
+<H6>Becoming India’s no. 1 fashion destination is not an easy feat. Sincere efforts, digital enhancements and a team of dedicated personnel with an equally loyal customer base have made Myntra the online platform that it is today. The original B2B venture for personalized gifts was conceived in 2007 but transitioned into a full-fledged ecommerce giant within a span of just a few years. By 2012, Myntra had introduced 350 Indian and international brands to its platform, and this has only grown in number each passing year. Today Myntra sits on top of the online fashion game with an astounding social media following, a loyalty program dedicated to its customers, and tempting, hard-to-say-no-to deals.
+</H6>
+<H4>SHOP ONLINE AT MYNTRA WITH COMPLETE CONVENIENCE</H4>
+<H6>Another reason why Myntra is the best of all online stores is the complete convenience that it offers. You can view your favourite brands with price options for different products in one place. A user-friendly interface will guide you through your selection process. Comprehensive size charts, product information and high-resolution images help you make the best buying decisions. You also have the freedom to choose your payment options, be it card or cash-on-delivery. The 30-day returns policy gives you more power as a buyer. Additionally, the try-and-buy option for select products takes customer-friendliness to the next level.</H6>
+ </div>
+    </body>
+ </html>
